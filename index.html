@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Code Quiz</title>
+		<meta charset="UTF-8">
+		<link href="Assets/css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<main class="card">
+			<div class="card-header">
+				<nav>
+					<div class="left">
+						<a onclick="getScore()" href="#"><span>View Highscore</span></a>
+					</div>
+					<div class="right">
+						<span>Time: <span id="timeLeft">0</span></span>
+					</div>
+				</nav>
+			</div>
+            <div id="quizBody" class="card-body">      
+                <h1>Coding Quiz!</h1>
+                <h3>Click to play!</h3>
+                <button onclick="start()">Start!</button>
+            </div>
+            <div id="verify" class="card-footer"></div>
+        </main>
+        
+        <script src ="Assets/script/script.js" type="text/javascript"></script>
+	</body>
+</html>
